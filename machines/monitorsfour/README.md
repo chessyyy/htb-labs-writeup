@@ -45,6 +45,26 @@ Nmap, Dirsearch, FFUF, curl, Hashcat, Netcat, Bash, Docker API
 
 ---
 
+## Mitigations
+- Restrict access to sensitive configuration files such as `.env`
+- Use strict comparison (`===`) for authentication logic
+- Implement strong password hashing (bcrypt or argon2)
+- Keep third-party software (Cacti) fully patched
+- Disable unauthenticated Docker API access (port 2375)
+- Enforce container isolation and network segmentation
+
+---
+
+## Skills Demonstrated
+- Web & API Enumeration
+- Authentication Logic Flaw Exploitation
+- Password Hash Cracking
+- Authenticated Remote Code Execution
+- Container Escape Techniques
+- Docker API Abuse
+
+---
+
 ## Disclaimer
 This write-up is for educational purposes only.
 All testing was performed in a controlled HTB lab environment.
