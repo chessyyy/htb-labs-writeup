@@ -66,6 +66,29 @@ Nmap, Dirsearch, FFUF, curl, Hashcat, Netcat, Bash, Docker HTTP API
 
 ---
 
+## MITRE ATT&CK Mapping
+The following techniques were observed during the exploitation of this machine:
+
+- **T1595 – Active Scanning**  
+  Web and service enumeration to identify exposed endpoints and applications
+
+- **T1190 – Exploit Public-Facing Application**  
+  Abuse of web application misconfigurations and vulnerable services
+
+- **T1078 – Valid Accounts**  
+  Use of cracked credentials to authenticate to the Cacti application
+
+- **T1059 – Command and Scripting Interpreter**  
+  Execution of commands via authenticated remote code execution
+
+- **T1611 – Escape to Host**  
+  Container escape through abuse of exposed Docker API
+
+- **T1105 – Ingress Tool Transfer**  
+  Transfer of payloads and interaction with remote services during post-exploitation
+
+---
+
 ## Disclaimer
 This write-up is provided for educational purposes only.
 All testing was conducted in a controlled Hack The Box lab environment.
