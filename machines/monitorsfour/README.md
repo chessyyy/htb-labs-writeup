@@ -25,6 +25,17 @@ full host-level compromise.
 
 ---
 
+## Evidence of Hands-On Testing
+
+The following redacted screenshots demonstrate key findings during the assessment.
+Sensitive values and identifiers have been intentionally removed.
+
+![Response pattern analysis revealed API authentication bypass](screenshots/api-bypass-redacted.png)
+
+![Internal enumeration revealed unauthenticated Docker API exposure on port 2375](screenshots/docker-api-redacted.png)
+
+---
+
 ## Key Vulnerabilities
 - Publicly accessible `.env` configuration file
 - API authentication logic flaw (loose comparison)
