@@ -6,6 +6,11 @@
 
 ---
 
+## Machines
+
+- [MonitorsFour](machines/monitorsfour)
+
+
 ## Overview
 This write-up documents the exploitation of the HTB *MonitorsFour* machine.
 The engagement demonstrates how multiple misconfigurations and logic flaws
