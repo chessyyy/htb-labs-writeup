@@ -1,6 +1,6 @@
 # HTB – Appointment
 
-**Difficulty:** Easy  
+**Difficulty:** Very Easy  
 **Category:** Web / SQL Injection  
 **OS:** Linux  
 
@@ -70,8 +70,8 @@ Exact string under the VERSION column of the scan results.
 **Answer:**  
 Apache httpd 2.4.38 ((Debian))
 
-**Tools Used**
--Nmap
+**Tools Used:**
+- Nmap
 
 ---
 
