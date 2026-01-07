@@ -113,6 +113,6 @@ htb
 
 ###Root Flag
 
-![Flag](flag-sequel.png)
+![Flag](flag1.png)
 
 > **Note:** Root flags, credentials, and sensitive exploitation details are intentionally excluded in accordance with Hack The Box content guidelines.
