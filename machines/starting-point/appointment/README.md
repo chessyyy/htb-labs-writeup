@@ -149,8 +149,8 @@ After successfully bypassing authentication, what is the first word displayed on
 Try adding a comment at the end of the username. 
 Go to browser and access victim page > http://IP_TARGET , then execute the payload
 
-![Target Website](screenshot/login-page.png)
-![Answer Task 10 & Root Flag can be found here!](screenshot/flag.png)
+![Target Website](appointment/login-page.png)
+![Answer Task 10 & Root Flag can be found here!](appointment/flag.png)
 
 ---
 
